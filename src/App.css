@@ -30,3 +30,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.banner-wrapper {
+  background-image: url('./img/city.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

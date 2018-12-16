@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Banner from './Banner';
 import logo from './logo.svg';
 import Navbar from './Navbar';
 
@@ -10,6 +11,7 @@ class App extends Component {
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
       <Navbar />
+      <Banner />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>

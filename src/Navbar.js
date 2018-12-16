@@ -24,13 +24,13 @@ function Navbar(props) {
   return <div className={classes.root}>
       <AppBar position="fixed" style={{background: 'transparent', boxShadow:'none', marginTop: '20px'}}>
         <Toolbar>
-          <Typography align='left' variant="h5" color="inherit" className={classes.grow} style={{marginLeft: 65,}}>
+          <Typography align='left' variant="h5" color="inherit" className={classes.grow} style={{marginLeft: '5%',}}>
             Drew Tucker
           </Typography>
           <Button color="inherit">Home</Button>
           <Button color="inherit">Resume</Button>
-        <Button color="inherit" style={{ marginRight: 65, }}> 
-        <i class="material-icons" style={{marginRight: 3}}>code</i>
+        <Button color="inherit" style={{ marginRight: '5%', }}> 
+        <i className="material-icons" style={{marginRight: 3}}>code</i>
          Projects
     </Button>
         </Toolbar>
