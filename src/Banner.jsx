@@ -1,3 +1,4 @@
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
@@ -11,6 +12,10 @@ function Banner() {
         <Typography variant='h6' style={{ width: '70%', color: 'white', textAlign:'left', marginTop: '3%'}}>
         I'm an up and coming developer based in the Seattle area. I have full-stack experience with a preference for the Frontend. I want to help your company make it's next great app.
       </Typography>
+        <Button variant='contained' color='primary' style={{width: '300px', marginTop: '3%', fontSize: '1rem' }}>Send me an email<i style={{marginLeft:'2.5%'}} class="material-icons">
+            mail_outline</i></Button>
+
+
     </div>
       <style>{`
       .greeting {
