@@ -40,6 +40,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 125px;
+  margin-left: auto;
+  flex-direction: row;
 }

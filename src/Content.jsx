@@ -4,7 +4,7 @@ import React from 'react';
 
 function Content() {
   return <div className="content-wrapper">
-      <Paper style={{ width: '80%', height: '1200px', marginTop: '-30px' }} elevation="15" />
+      <Paper style={{ width: '97%', height: '1200px', marginTop: '-30px' }} elevation="15" />
       <style>{`
         .content-wrapper {
           display: flex;
