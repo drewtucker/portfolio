@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Banner from './Banner';
+import Content from './Content';
 import logo from './logo.svg';
 import Navbar from './Navbar';
 
@@ -12,6 +13,7 @@ class App extends Component {
 
       <Navbar />
       <Banner />
+      <Content />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
