@@ -45,3 +45,11 @@
   flex-direction: row;
 }
 
+@media only screen and (max-width: 655) {
+  .skills-wrapper {
+    height: 2000px;
+  }
+  #content-paper {
+    height: 2000px;
+  }
+}
