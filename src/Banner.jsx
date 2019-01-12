@@ -27,7 +27,6 @@ function Banner() {
         font-family: Roboto, sans-serif;
         flex-direction: column;
       }
-
       `}</style>
     </div>
   )
